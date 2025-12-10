@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motion Controlled Particles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <canvas id="viz" aria-label="Particle visualizer"></canvas>
+      <section class="ui">
+        <div class="status">
+          <p class="headline">Motion Controlled Particle Visualizer</p>
+          <p id="statusText">Click start and move in front of your camera.</p>
+        </div>
+        <div class="controls">
+          <button id="startBtn" type="button">Start camera</button>
+          <button id="stopBtn" type="button" disabled>Stop</button>
+        </div>
+        <p class="hint">
+          Tips: enable your webcam, move hands or objects; brighter motion spawns more particles.
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
